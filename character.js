@@ -66,8 +66,8 @@ Panda.prototype.update = function () {
     }
 
  
-    if (this.x >= 1000) this.x = -100;
-    if (this.x <= -100) this.x = 1000;
+    if (this.x >= 1000) this.x = -99;
+    if (this.x <= -100) this.x = 999;
 
 }
 
